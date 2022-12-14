@@ -9,5 +9,7 @@ Fine tuning Bert Model mainly consists of three parts. First step is designing a
 A flask based API also has been implemented which works with POST method and returns the polarity score for both classes (positive and negative)
 # Results
 In this section we present the results. Please note that before introducing transformer base models (like Bert) achieving the accuracy about 70% was hard to reach.
-AUC	Accuracy	F score	Recall	Precision	 
-93.74	86.48	86.59	86.48	86.92	Result in %
+| Precision | Recall | F score | Accuracy | AUC | 
+| --- | --- |--- |--- |--- |
+| 86.92 | 86.48 | 86.59 | 86.48 | 93.74 |
+
